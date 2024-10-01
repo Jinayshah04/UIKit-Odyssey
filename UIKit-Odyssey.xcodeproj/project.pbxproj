@@ -13,6 +13,8 @@
 		07E90A4E2C6122B60011F12D /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 07E90A4D2C6122B60011F12D /* Base */; };
 		07E90A502C6122B80011F12D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07E90A4F2C6122B80011F12D /* Assets.xcassets */; };
 		07E90A532C6122B80011F12D /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 07E90A522C6122B80011F12D /* Base */; };
+		B34DC9B82C64970F006A7D02 /* TableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34DC9B72C64970F006A7D02 /* TableVC.swift */; };
+		B34DC9BA2C649B49006A7D02 /* cellColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34DC9B92C649B49006A7D02 /* cellColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		07E90A4F2C6122B80011F12D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		07E90A522C6122B80011F12D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		07E90A542C6122B80011F12D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B34DC9B72C64970F006A7D02 /* TableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableVC.swift; sourceTree = "<group>"; };
+		B34DC9B92C649B49006A7D02 /* cellColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cellColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +91,8 @@
 			isa = PBXGroup;
 			children = (
 				07E90A4A2C6122B60011F12D /* HomeVC.swift */,
+				B34DC9B72C64970F006A7D02 /* TableVC.swift */,
+				B34DC9B92C649B49006A7D02 /* cellColor.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -163,7 +169,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				07E90A4B2C6122B60011F12D /* HomeVC.swift in Sources */,
+				B34DC9B82C64970F006A7D02 /* TableVC.swift in Sources */,
 				07E90A472C6122B60011F12D /* AppDelegate.swift in Sources */,
+				B34DC9BA2C649B49006A7D02 /* cellColor.swift in Sources */,
 				07E90A492C6122B60011F12D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
