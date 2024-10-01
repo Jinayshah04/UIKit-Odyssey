@@ -19,6 +19,8 @@ class HomeVC: UIViewController {
     
     @IBOutlet weak var opacitySlider: UISlider!
     
+    @IBOutlet weak var btnShow: UIButton!
+    
     private var rValue: CGFloat!
     private var gValue: CGFloat!
     private var bValue: CGFloat!
@@ -34,7 +36,7 @@ class HomeVC: UIViewController {
         colorView.backgroundColor =  UIColor(red: r/255, green: g/255, blue: b/255, alpha: o)
     }
     
-    
+   
     @IBAction func rSliderChanged(_ sender: Any) {
         
         rValue =  CGFloat(rSlider.value)
@@ -79,7 +81,9 @@ class HomeVC: UIViewController {
 
     }
     
-
+    @IBAction func btnClick(_ sender:Any){
+        performSegue(withIdentifier: "tableNavigate", sender: self)
+    }
 
 }
 
